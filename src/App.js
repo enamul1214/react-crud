@@ -13,7 +13,6 @@ function App() {
     <div className="App" style={{maxWidth: '40rem', margin: '4rem auto'}}>
       <GlobalProvider>
         <Router>
-            <h1>Nav</h1>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/add" component={AddUser} />
